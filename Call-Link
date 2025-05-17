@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>تماس با ما</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #f9f9f9;
+    }
+
+    .call-button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #28a745;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .call-button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>تماس با ما</h1>
+  <p>برای برقراری تماس، روی دکمه زیر کلیک کنید:</p>
+  
+  <a href="tel:+989111516055" class="call-button">📞 تماس بگیرید</a>
+
+</body>
+</html>
